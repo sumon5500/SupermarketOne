@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+a,a:hover{
+    text-decoration: none;
+}
+/* header section css start */
+.header-section{
+    width: 100%;
+
+}
+.top-header{
+    width: 100%;
+    background: #eee;
+}
+.inner-offer {
+    margin: 20px;
+}
+.login-section {
+    margin: 20px;
+}
+
+.login-section a {
+    color: #fff;
+    margin-left: 20px;
+   
+}
+.login-section a:hover,
+.login-section a:focus{
+    color: #fe9126 !important;
+    transition: .7s ease;
+    background-image: url(../images/hr.png);
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+}
+.inner-cart{
+    width: 100%;
+}
+.inner-cart i {
+    font-size: 25pt;
+    color: #fff;
+    margin: 10px 0px 20px 116px;
+}
+.inner-cart i:hover{
+    color: #fe9126;
+    transition: .5s;
+}
+/* top header end */
+
+.middle-header{
+    width: 100%;
+    background: #eee;
+}
+.contact-us {
+    margin: 65px 0px 20px 0px;
+}
+.contact-us i{
+    font-size: 14pt;
+    
+}
+.contact-us i span{
+    font-size: 12pt;
+    margin-left: 10px;
+}
+.site-name h1{
+    
+    color: #fe9126;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 38px 0px;
+    
+}
+.search-bar{
+    width: 100%;
+    margin: 40px 0px 20px 0px;
+}
+.search-bar input{
+    
+    padding: 10px 0px 6px 7px;
+}
+.search-bar i{
+    color: #fff !important;
+    margin-left: 5px;
+}
+.search-bar i:hover,
+.search-bar i:focus{
+    background: transparent !important;
+    border: 1px solid #fe9126;
+    color:#fe9126 !important;
+}
+
+/* middle header end */
+
+.main-menu{
+    width: 100%;
+
+}
+ .main-menu .bg-warning {
+    background-color: #fe9126 !important;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin: 0px 0px 0px 23px;
+}
+.navbar-nav a {
+    color: #fff !important;
+    text-align: center;
+    margin-left: 20px;
+    font-weight: 100;
+    font-size: 17px;
+}
+.navbar-nav a:hover,
+.navbar-nav a:focus{
+    color: rgb(60, 255, 0) !important;
+    transition: 1s;
+    font-size: 12pt;
+}
+/* main menu end */
+
+/* header section css end */
+/* ************************************************************************* */
+/* banner section start */
+
+/* banner section end */
+/* *************************************************************************** */
+
+/* top-selling start */
+.top-selling{
+    width: 100%;
+}
+.inner-selling{
+    width: 100%;
+    margin: 80px 0px 30px 0px ;
+}
+.inner-selling h1{
+    font-weight: 600;
+    font-size: 44px;
+    color: #000;
+    margin: 0px 0px 30px 0px;
+    text-transform: uppercase;
+}
+.inner-selling img{
+    margin: 0px;
+}
+/* top-selling end */
+/* *************************************************************************** */
